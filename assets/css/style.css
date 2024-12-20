@@ -1,24 +1,26 @@
+/*NORMALIZACION*/
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
+/*body*/
+.container {
+  display: flex;
 
-.container {    
-    display: flex;
-
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 main {
-width: 70vw;
-height: 100vh;
-background-color: bisque;
+  width: 70vw;
+  height: 100vh;
+  background-color: bisque;
 }
 
-aside   {
-    
-width: 30vw;
-height: 100vh;
-background-color: aqua;
+aside {
+  width: 30vw;
+  height: 100vh;
+  background-color: aqua;
 }
