@@ -6,8 +6,20 @@
   list-style: none;
 }
 /*body*/
-.container {
+
+/*FLEXBOX*/
+.flex {
   display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.align-center {align-items: center;
+
+. .container {
 
   width: 100vw;
   height: 100vh;
